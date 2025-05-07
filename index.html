@@ -1,0 +1,16 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>React Compiler</title>
+<link rel=stylesheet href=asset/style.css>
+<textarea id=source></textarea>
+<script src=asset/remark.min.js></script>
+<script>
+	// https://github.com/gnab/remark/wiki/Markdown#slide-properties
+	remark.create({
+		sourceUrl: "slides.md",
+		ratio: "16:9",
+		countIncrementalSlides: false,
+		highlightStyle: "vs",
+		highlightLines: true,
+	});
+</script>
